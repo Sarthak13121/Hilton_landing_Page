@@ -69,7 +69,7 @@ export const CATALOG: Product[] = [
     },
     {
         id: '8',
-        name: 'CPVC Ball Valve (Long Handle)',
+        name: 'MS handle Valve (Long Handle)',
         size: '1/2" (20 mm) to 4" (110 mm) — includes 1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3", 4"',
         variant: 'white',
         tab: 'valves',
@@ -85,8 +85,8 @@ export const CATALOG: Product[] = [
     },
     {
         id: '10',
-        name: 'R-UPVC Rigid Ball Valve(Long Handle)',
-        size: '1/2" (20 mm) to 4" (110 mm) — includes 1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3", 4"',
+        name: ' CPVC Ball Valve(Long Handle)',
+        size: '1/2" (20 mm) to 4" (110 mm) — includes 3/4", 1", 1¼", 1½", 2"',
         variant: 'Grey — Standard Industrial Matte Finish',
         tab: 'valves',
         img: 'Picture9.png'
@@ -113,7 +113,7 @@ export const CATALOG: Product[] = [
         size: '15 mm to 250 mm (ranges: 15–65 mm & 80–250 mm)',
         variant: 'Black — Solid Heavy Matte Compound',
         tab: 'valves',
-        img: 'Picture14.png'
+        img: 'Picture14.jpg'
     },
     {
         id: '14',
