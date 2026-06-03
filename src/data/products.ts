@@ -93,7 +93,7 @@ export const CATALOG: Product[] = [
     },
     {
         id: '11',
-        name: 'PP. UPVC Hybrid Ball Valve(Short Handle)',
+        name: 'PP. UPVC Ball Valve(Short Handle)',
         size: '1/2" (20 mm) to 4" (110 mm) — includes 1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3", 4"',
         variant: 'White / Grey — Composite Formulation',
         tab: 'valves',
@@ -101,7 +101,7 @@ export const CATALOG: Product[] = [
     },
     {
         id: '12',
-        name: 'PP. UPVC Hybrid Ball Valve(Long Handle)',
+        name: 'PP. UPVC Ball Valve(Long Handle)',
         size: '1/2" (20 mm) to 4" (110 mm) — includes 1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3", 4"',
         variant: 'White / Grey — Composite Formulation',
         tab: 'valves',
@@ -627,7 +627,7 @@ export const CATALOG: Product[] = [
     },
     {
         id: '75',
-        name: 'ABS Core Ball Cock',
+        name: 'ABS Ball Cock Set',
         size: '15 mm to 25 mm',
         variant: 'White / Chrome Finish',
         tab: 'bathroom',
@@ -636,7 +636,7 @@ export const CATALOG: Product[] = [
     {
         id: '76',
         name: 'PTMT Connection pipe',
-        size: '12" to 2 MTR lengths',
+        size: '12", 18", 24", 30", 36", 1m, 1.5m, 2m',
         variant: 'White Base + Stainless Nuts',
         tab: 'bathroom',
         img: 'Picture95.png'
@@ -645,7 +645,7 @@ export const CATALOG: Product[] = [
         id: '77',
         name: 'T-Cock Tap',
         size: '15 mm to 25 mm',
-        variant: 'White / Colored Knobs — Standard & Fancy variants available',
+        variant: 'Red',
         tab: 'bathroom',
         img: 'Picture103.png'
     },
