@@ -7,10 +7,10 @@ export default function Hero() {
 
   const heroImages = [
     { src: "/images/Picture1.png", alt: "Solid Seal Ball Valve (Short Handle)" },
-    { src: "/images/Picture10.png", alt: "Long Handle Solid Seal Ball Valve" },
-    { src: "/images/Picture19.jpg", alt: "M.S. Handle Solid Ball Valve" },
-    { src: "/images/Picture27.png", alt: "CPVC Ball Valve (High Temperature)" },
-    { src: "/images/Picture36.png", alt: "R-UPVC Rigid Ball Valve" }
+    { src: "/images/Picture61.png", alt: "Service Saddle (White)" },
+    { src: "/images/Picture76.png", alt: "Hose Collar (Out Thread)" },
+    { src: "/images/Picture103.png", alt: "P.P. Cap/plug" },
+    { src: "/images/Picture72.png", alt: "Foot Valve (Threaded)" }
   ];
 
   useEffect(() => {
