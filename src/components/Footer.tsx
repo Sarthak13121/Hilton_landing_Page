@@ -52,10 +52,10 @@ export default function Footer() {
               </li>
               <li>
                 <button
-                  onClick={() => triggerTabScroll("saddles")}
+                  onClick={() => triggerTabScroll("agri")}
                   className="text-surface-white/60 text-xs hover:text-surface-white transition-colors duration-200 text-left bg-transparent border-none cursor-pointer p-0"
                 >
-                  Saddles &amp; Sleeves
+                  Agricultural Products
                 </button>
               </li>
               <li>
@@ -63,7 +63,31 @@ export default function Footer() {
                   onClick={() => triggerTabScroll("fittings")}
                   className="text-surface-white/60 text-xs hover:text-surface-white transition-colors duration-200 text-left bg-transparent border-none cursor-pointer p-0"
                 >
-                  Pipeline Fittings
+                  Pipe Fittings
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => triggerTabScroll("Rain")}
+                  className="text-surface-white/60 text-xs hover:text-surface-white transition-colors duration-200 text-left bg-transparent border-none cursor-pointer p-0"
+                >
+                  Rain Pipe Fittings
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => triggerTabScroll("Compression")}
+                  className="text-surface-white/60 text-xs hover:text-surface-white transition-colors duration-200 text-left bg-transparent border-none cursor-pointer p-0"
+                >
+                  Compressor Fittings
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => triggerTabScroll("Irrigation")}
+                  className="text-surface-white/60 text-xs hover:text-surface-white transition-colors duration-200 text-left bg-transparent border-none cursor-pointer p-0"
+                >
+                  Irrigation Products
                 </button>
               </li>
               <li>
@@ -71,15 +95,7 @@ export default function Footer() {
                   onClick={() => triggerTabScroll("bathroom")}
                   className="text-surface-white/60 text-xs hover:text-surface-white transition-colors duration-200 text-left bg-transparent border-none cursor-pointer p-0"
                 >
-                  Bathroom Fittings
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => triggerTabScroll("agri")}
-                  className="text-surface-white/60 text-xs hover:text-surface-white transition-colors duration-200 text-left bg-transparent border-none cursor-pointer p-0"
-                >
-                  Agri Irrigation Systems
+                  Sanitary &amp; Cork
                 </button>
               </li>
             </ul>

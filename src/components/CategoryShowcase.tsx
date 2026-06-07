@@ -42,54 +42,9 @@ export default function CategoryShowcase() {
       class: "hover:border-primary/30 group-hover:text-primary"
     },
     {
-      tab: "saddles",
-      title: "Saddles & Sleeves",
-      desc: "Service saddles, pipe support anchors, D-joint leak sleeves, and industrial flanges.",
-      icon: (
-        <svg className="w-8 h-8" viewBox="0 0 32 32" fill="none">
-          <rect x="4" y="12" width="24" height="8" rx="2" stroke="currentColor" strokeWidth="2" />
-          <path
-            d="M12 12V8a4 4 0 0 1 8 0v4"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-          />
-          <path d="M8 20v4M24 20v4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-        </svg>
-      ),
-      class: "hover:border-secondary/30 group-hover:text-secondary"
-    },
-    {
-      tab: "fittings",
-      title: "Pipeline Fittings",
-      desc: "Elbows, tees, couplers, unions, nipples, MDPE compression fittings, and PP network connectors.",
-      icon: (
-        <svg className="w-8 h-8" viewBox="0 0 32 32" fill="none">
-          <path d="M4 16h10M18 16h10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-          <circle cx="16" cy="16" r="3" stroke="currentColor" strokeWidth="2" />
-          <path d="M16 4v6M16 22v6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-        </svg>
-      ),
-      class: "hover:border-primary/30 group-hover:text-primary"
-    },
-    {
-      tab: "bathroom",
-      title: "Bathroom Fittings",
-      desc: "Bib cocks, pan cocks, pillar cocks, showers, waste pipes, and sanitary accessories.",
-      icon: (
-        <svg className="w-8 h-8" viewBox="0 0 32 32" fill="none">
-          <path d="M8 8a8 8 0 0 1 16 0v4H8V8z" stroke="currentColor" strokeWidth="2" />
-          <rect x="4" y="12" width="24" height="4" rx="2" stroke="currentColor" strokeWidth="2" />
-          <path d="M10 16v8M22 16v8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-          <path d="M7 24h18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-        </svg>
-      ),
-      class: "hover:border-accent/30 group-hover:text-accent"
-    },
-    {
       tab: "agri",
-      title: "Agri Irrigation",
-      desc: "Foot valves, NRV check valves, mini sprinklers, venturi sets, and lateral drip irrigation hardware.",
+      title: "Agricultural Products",
+      desc: "Service saddles, pipe saddles, D-joint leak sleeves, kundi bari, flanges, bore caps, NRVs, check valves, and air valves.",
       icon: (
         <svg className="w-8 h-8" viewBox="0 0 32 32" fill="none">
           <path d="M16 28V16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
@@ -112,7 +67,68 @@ export default function CategoryShowcase() {
           <path d="M6 28h20" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
         </svg>
       ),
-      class: "hover:border-secondary/30 group-hover:text-secondary lg:col-span-2"
+      class: "hover:border-secondary/30 group-hover:text-secondary md:col-span-2 lg:col-span-2 bg-gradient-to-br from-surface-white to-surface-container-low"
+    },
+    {
+      tab: "fittings",
+      title: "Pipe Fittings",
+      desc: "Hose collars, connectors, reduce bushings, check nuts, tank nipples, PP elbows, tees, unions, plugs, and caps.",
+      icon: (
+        <svg className="w-8 h-8" viewBox="0 0 32 32" fill="none">
+          <path d="M4 16h10M18 16h10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+          <circle cx="16" cy="16" r="3" stroke="currentColor" strokeWidth="2" />
+          <path d="M16 4v6M16 22v6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+        </svg>
+      ),
+      class: "hover:border-primary/30 group-hover:text-primary"
+    },
+    {
+      tab: "Rain",
+      title: "Rain Pipe Fittings",
+      desc: "Jointers, MTAs, end caps, gromets, lateral cocks, and semi/virgin rain pipes in standard dimensions.",
+      icon: (
+        <svg className="w-8 h-8" viewBox="0 0 32 32" fill="none">
+          <path d="M16 4v4M10 6l2 2M22 6l-2 2M16 10c-3.5 0-6 2.5-6 6 0 4.5 6 12 6 12s6-7.5 6-12c0-3.5-2.5-6-6-6z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+      class: "hover:border-accent/30 group-hover:text-accent"
+    },
+    {
+      tab: "Compression",
+      title: "Compressor Fittings",
+      desc: "FTA/MTA adaptors and elbows in plain & brass threads, end caps, couplers, compression tees, and DI pipe saddles.",
+      icon: (
+        <svg className="w-8 h-8" viewBox="0 0 32 32" fill="none">
+          <circle cx="16" cy="16" r="10" stroke="currentColor" strokeWidth="2" />
+          <path d="M16 6v10M16 16l4 4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+        </svg>
+      ),
+      class: "hover:border-primary/30 group-hover:text-primary"
+    },
+    {
+      tab: "Irrigation",
+      title: "Irrigation Products",
+      desc: "Drip jointers, take-offs, end caps, gromets, lateral cocks, Pepsi cocks, micro/butterfly sprinklers, drippers, and ventury sets.",
+      icon: (
+        <svg className="w-8 h-8" viewBox="0 0 32 32" fill="none">
+          <path d="M16 4v6M10 8l2 2M22 8l-2 2M6 28h20M12 28v-8a4 4 0 0 1 8 0v8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+        </svg>
+      ),
+      class: "hover:border-secondary/30 group-hover:text-secondary"
+    },
+    {
+      tab: "bathroom",
+      title: "Sanitary & Cork",
+      desc: "PP/ABS ball cocks, connection pipes, T-cock/pan/handi taps, push/jug cocks, showers, waste pipes, and fancy crystal bib cocks.",
+      icon: (
+        <svg className="w-8 h-8" viewBox="0 0 32 32" fill="none">
+          <path d="M8 8a8 8 0 0 1 16 0v4H8V8z" stroke="currentColor" strokeWidth="2" />
+          <rect x="4" y="12" width="24" height="4" rx="2" stroke="currentColor" strokeWidth="2" />
+          <path d="M10 16v8M22 16v8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+          <path d="M7 24h18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+        </svg>
+      ),
+      class: "hover:border-accent/30 group-hover:text-accent"
     }
   ];
 
@@ -125,7 +141,7 @@ export default function CategoryShowcase() {
             What We Manufacture
           </span>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-headline text-on-surface leading-tight">
-            Five Core Product Lines
+            Seven Core Product Lines
           </h2>
           <p className="text-sm sm:text-base text-on-surface-variant leading-relaxed">
             Every component is manufactured under strict ISO 9001:2008 standards using high-density virgin polymer formulations (PP, CPVC, UPVC, Rigid PVC) optimized for chemical resistance, pressure integrity, and UV longevity in the field.

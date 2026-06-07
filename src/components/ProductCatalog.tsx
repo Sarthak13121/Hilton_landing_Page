@@ -70,10 +70,12 @@ export default function ProductCatalog() {
 
   const tabs = [
     { id: "valves", label: "Ball Valves", icon: "settings" },
-    { id: "saddles", label: "Saddles & Sleeves", icon: "build" },
-    { id: "fittings", label: "Pipeline Fittings", icon: "hub" },
-    { id: "bathroom", label: "Bathroom Fittings", icon: "shower" },
-    { id: "agri", label: "Agri Irrigation", icon: "agriculture" }
+    { id: "agri", label: "Agricultural Products", icon: "agriculture" },
+    { id: "fittings", label: "Pipe Fittings", icon: "hub" },
+    { id: "Rain", label: "Rain Pipe Fittings", icon: "water_drop" },
+    { id: "Compression", label: "Compressor Fittings", icon: "compress" },
+    { id: "Irrigation", label: "Irrigation Products", icon: "opacity" },
+    { id: "bathroom", label: "Sanitary & Cork", icon: "shower" }
   ];
 
   return (
@@ -89,7 +91,7 @@ export default function ProductCatalog() {
               Full Product Catalog
             </h2>
             <p className="text-xs sm:text-sm text-on-surface-variant max-w-xl">
-              Browse across all 391 products in our catalog. Perform a quick search by product name, model code, size specification, or material type.
+              Browse across all 213 products in our catalog. Perform a quick search by product name, model code, size specification, or material type.
             </p>
           </div>
         </div>
