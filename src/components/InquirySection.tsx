@@ -77,50 +77,82 @@ export default function InquirySection() {
             {/* Contact cards lists */}
             <div className="space-y-4 max-w-lg">
               {/* Sales Support */}
-              <a
-                href="tel:+919684096423"
-                className="group flex items-center justify-between p-4 bg-surface-white border border-outline-variant/15 hover:border-primary/20 rounded-lg shadow-sm hover:shadow transition-all duration-200"
+              <div
+                className="flex flex-col sm:flex-row sm:items-center justify-between p-4 bg-surface-white border border-outline-variant/15 rounded-lg shadow-sm gap-4 transition-all duration-200"
               >
                 <div className="flex gap-4 items-center">
-                  <div className="w-11 h-11 rounded bg-secondary/10 flex items-center justify-center text-secondary">
+                  <div className="w-11 h-11 rounded bg-secondary/10 flex items-center justify-center text-secondary shrink-0">
                     <span className="material-symbols-outlined text-[22px] font-bold">phone_in_talk</span>
                   </div>
                   <div>
                     <span className="block text-[10px] font-bold text-on-surface-variant uppercase tracking-wider leading-none">
-                      Patel Vishnubhai 
+                      Patel Vishnubhai (Sales Support)
                     </span>
-                    <strong className="block text-sm sm:text-base text-on-surface font-headline font-bold mt-1.5 group-hover:text-primary transition-colors leading-none">
+                    <strong className="block text-sm sm:text-base text-on-surface font-headline font-bold mt-1.5 leading-none">
                       +91 98240 96423
                     </strong>
                   </div>
                 </div>
-                <span className="material-symbols-outlined text-primary text-[18px] group-hover:translate-x-1 transition-transform">
-                  arrow_forward
-                </span>
-              </a>
+                <div className="flex items-center gap-2 sm:ml-auto">
+                  <a
+                    href="tel:+919824096423"
+                    className="flex items-center justify-center gap-1 px-3 py-2 bg-primary/10 hover:bg-primary text-primary hover:text-surface-white border border-primary/20 rounded font-headline font-bold text-xs transition-all duration-200 active:scale-95 cursor-pointer"
+                  >
+                    <span className="material-symbols-outlined text-[14px]">phone</span>
+                    Call
+                  </a>
+                  <a
+                    href="https://wa.me/919824096423"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center gap-1.5 px-3 py-2 bg-green-500/10 hover:bg-green-600 text-green-600 hover:text-surface-white border border-green-500/20 rounded font-headline font-bold text-xs transition-all duration-200 active:scale-95 cursor-pointer"
+                  >
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor">
+                      <path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.96 9.96 0 0 0 1.333 4.982L2 22l5.13-1.348a9.96 9.96 0 0 0 4.88 1.27h.005c5.506 0 9.99-4.478 9.99-9.987C22 6.478 17.517 2 12.012 2zm6.368 14.183c-.279.782-1.393 1.442-1.921 1.545-.48.093-.996.15-2.827-.608-2.339-.97-3.83-3.328-3.947-3.483-.117-.156-.957-1.272-.957-2.428 0-1.155.601-1.722.816-1.956.215-.234.481-.294.643-.294.16 0 .32.001.46.007.144.006.338-.053.528.404.195.47.669 1.63.727 1.748.058.118.098.254.019.41-.078.156-.118.254-.235.39-.117.137-.246.305-.35.41-.11.111-.225.23-.097.45.127.22.566.932 1.214 1.51.836.744 1.54.974 1.756 1.084.215.11.343.094.469-.052.127-.146.547-.638.694-.855.147-.216.293-.182.498-.104.205.078 1.3.613 1.525.727.225.114.375.172.43.267.056.096.056.554-.223 1.336z"/>
+                    </svg>
+                    WhatsApp
+                  </a>
+                </div>
+              </div>
 
               {/* Ops Support */}
-              <a
-                href="tel:+919624096424"
-                className="group flex items-center justify-between p-4 bg-surface-white border border-outline-variant/15 hover:border-primary/20 rounded-lg shadow-sm hover:shadow transition-all duration-200"
+              <div
+                className="flex flex-col sm:flex-row sm:items-center justify-between p-4 bg-surface-white border border-outline-variant/15 rounded-lg shadow-sm gap-4 transition-all duration-200"
               >
                 <div className="flex gap-4 items-center">
-                  <div className="w-11 h-11 rounded bg-primary/10 flex items-center justify-center text-primary">
+                  <div className="w-11 h-11 rounded bg-primary/10 flex items-center justify-center text-primary shrink-0">
                     <span className="material-symbols-outlined text-[22px] font-bold">phone_in_talk</span>
                   </div>
                   <div>
                     <span className="block text-[10px] font-bold text-on-surface-variant uppercase tracking-wider leading-none">
-                      Patel Bharatbhai 
+                      Patel Bharatbhai (Operations Support)
                     </span>
-                    <strong className="block text-sm sm:text-base text-on-surface font-headline font-bold mt-1.5 group-hover:text-primary transition-colors leading-none">
+                    <strong className="block text-sm sm:text-base text-on-surface font-headline font-bold mt-1.5 leading-none">
                       +91 96240 96424
                     </strong>
                   </div>
                 </div>
-                <span className="material-symbols-outlined text-primary text-[18px] group-hover:translate-x-1 transition-transform">
-                  arrow_forward
-                </span>
-              </a>
+                <div className="flex items-center gap-2 sm:ml-auto">
+                  <a
+                    href="tel:+919624096424"
+                    className="flex items-center justify-center gap-1 px-3 py-2 bg-primary/10 hover:bg-primary text-primary hover:text-surface-white border border-primary/20 rounded font-headline font-bold text-xs transition-all duration-200 active:scale-95 cursor-pointer"
+                  >
+                    <span className="material-symbols-outlined text-[14px]">phone</span>
+                    Call
+                  </a>
+                  <a
+                    href="https://wa.me/919624096424"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center gap-1.5 px-3 py-2 bg-green-500/10 hover:bg-green-600 text-green-600 hover:text-surface-white border border-green-500/20 rounded font-headline font-bold text-xs transition-all duration-200 active:scale-95 cursor-pointer"
+                  >
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor">
+                      <path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.96 9.96 0 0 0 1.333 4.982L2 22l5.13-1.348a9.96 9.96 0 0 0 4.88 1.27h.005c5.506 0 9.99-4.478 9.99-9.987C22 6.478 17.517 2 12.012 2zm6.368 14.183c-.279.782-1.393 1.442-1.921 1.545-.48.093-.996.15-2.827-.608-2.339-.97-3.83-3.328-3.947-3.483-.117-.156-.957-1.272-.957-2.428 0-1.155.601-1.722.816-1.956.215-.234.481-.294.643-.294.16 0 .32.001.46.007.144.006.338-.053.528.404.195.47.669 1.63.727 1.748.058.118.098.254.019.41-.078.156-.118.254-.235.39-.117.137-.246.305-.35.41-.11.111-.225.23-.097.45.127.22.566.932 1.214 1.51.836.744 1.54.974 1.756 1.084.215.11.343.094.469-.052.127-.146.547-.638.694-.855.147-.216.293-.182.498-.104.205.078 1.3.613 1.525.727.225.114.375.172.43.267.056.096.056.554-.223 1.336z"/>
+                    </svg>
+                    WhatsApp
+                  </a>
+                </div>
+              </div>
 
               {/* Email Support */}
               <a
@@ -150,23 +182,29 @@ export default function InquirySection() {
               </a>
 
               {/* Factory Address */}
-              <div
-                className="group flex items-center p-4 bg-surface-white border border-outline-variant/15 rounded-lg shadow-sm"
+              <a
+                href="https://maps.app.goo.gl/qWPBsyLDB19aRBQN7"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center justify-between p-4 bg-surface-white border border-outline-variant/15 hover:border-primary/20 rounded-lg shadow-sm hover:shadow transition-all duration-200 cursor-pointer text-left"
               >
                 <div className="flex gap-4 items-center">
-                  <div className="w-11 h-11 rounded bg-secondary/10 flex items-center justify-center text-secondary">
+                  <div className="w-11 h-11 rounded bg-secondary/10 flex items-center justify-center text-secondary shrink-0">
                     <span className="material-symbols-outlined text-[22px] font-bold">location_on</span>
                   </div>
                   <div>
                     <span className="block text-[10px] font-bold text-on-surface-variant uppercase tracking-wider leading-none">
-                      Factory Address
+                      Factory Address (Google Maps)
                     </span>
-                    <strong className="block text-xs sm:text-sm text-on-surface font-headline font-bold mt-1.5 leading-tight">
-                      Rakhiyal, Ahmedabad, Gujarat — 380 023, India
+                    <strong className="block text-xs sm:text-sm text-on-surface font-headline font-bold mt-1.5 leading-tight group-hover:text-primary transition-colors">
+                      12, Ajay Estate, Rakhial, Ahmedabad, Gujarat — 380 021, India
                     </strong>
                   </div>
                 </div>
-              </div>
+                <span className="material-symbols-outlined text-primary text-[18px] group-hover:translate-x-1 transition-transform shrink-0">
+                  arrow_forward
+                </span>
+              </a>
             </div>
           </div>
 

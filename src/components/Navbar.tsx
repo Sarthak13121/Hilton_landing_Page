@@ -72,12 +72,6 @@ export default function Navbar() {
           >
             Why Us
           </a>
-          <a
-            className="text-sm font-bold font-body text-on-surface-variant hover:text-primary transition-colors duration-200"
-            href="#contact"
-          >
-            Dealer Network
-          </a>
         </div>
 
         {/* Desktop CTA Button */}
@@ -163,13 +157,6 @@ export default function Navbar() {
               className="text-base font-bold font-body text-on-surface-variant hover:text-primary py-2 border-b border-outline-variant/10"
             >
               Why Choose Us
-            </a>
-            <a
-              href="#contact"
-              onClick={() => setIsOpen(false)}
-              className="text-base font-bold font-body text-on-surface-variant hover:text-primary py-2 border-b border-outline-variant/10"
-            >
-              Dealer Network
             </a>
           </div>
 

@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import LiveBackground from "./LiveBackground";
 
 export default function Hero() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -22,6 +23,9 @@ export default function Hero() {
   }, [heroImages.length]);
   return (
     <section className="relative min-h-[85vh] flex items-center bg-mesh py-12 md:py-20 overflow-hidden border-b border-outline-variant/15">
+      {/* Interactive 3D Parallax Live Background */}
+      <LiveBackground />
+
       {/* Dynamic backdrop glow circles */}
       <div className="absolute -bottom-16 -right-16 w-80 h-80 bg-primary/5 rounded-full blur-3xl -z-10"></div>
       <div className="absolute -top-16 -left-16 w-80 h-80 bg-secondary/5 rounded-full blur-3xl -z-10"></div>
